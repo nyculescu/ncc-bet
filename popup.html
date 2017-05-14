@@ -5,20 +5,22 @@
  value "popup.html".
  -->
 <html>
-  <head>
-    <title>Getting Started Extension's Popup</title>
+
+<head>
+    <title>NCC Bet</title>
     <style>
-      body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
-      }
-      #status {
-        /* avoid an excessively wide status text */
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        max-width: 400px;
-      }
+        body {
+            font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+            font-size: 100%;
+        }
+        
+        #status {
+            /* avoid an excessively wide status text */
+            white-space: pre;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            max-width: 400px;
+        }
     </style>
 
     <!--
@@ -28,10 +30,20 @@
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
      -->
     <script src="popup.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="status"></div>
     <img id="image-result" hidden>
-  </body>
-</html>
 
+    <div id="share">
+        <div id="share-box">
+            <span class="i18n_stats_share_title">Share this number</span>
+            <div data-social="facebook"></div>
+            <div data-social="twitter"></div>
+            <div data-social="gplus"></div>
+        </div>
+    </div>
+</body>
+
+</html>
