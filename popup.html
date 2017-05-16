@@ -8,6 +8,14 @@
 
 <head>
     <title>NCC Bet</title>
+    <!-- You can use open graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta property="og:url" content="https://www.facebook.com/nccbet/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="NCC Bet" />
+    <meta property="og:description" content="Your description" />
+    <meta property="og:image" content="https://scproxy-prod.adobecc.com/api?X-Location=https%3A%2F%2Fcc-eu1-prod.adobesc.com%2Fapi%2Fv1%2Fassets%2F543c9fb7-b82c-4975-9b00-bc306a789eb2%2Frenditions%2Fjpg%2F500?&link=775722c9-a810-40fa-49b9-0da082f81241" />
+
     <style>
         body {
             font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
@@ -36,13 +44,11 @@
     <div id="status"></div>
     <img id="image-result" hidden>
 
-    <div id="share">
-        <div id="share-box">
-            <span class="i18n_stats_share_title">Share this number</span>
-            <div data-social="facebook"></div>
-            <div data-social="twitter"></div>
-            <div data-social="gplus"></div>
-        </div>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+
+    <!-- Your like button code -->
+    <div class="fb-like" data-href="https://www.facebook.com/nccbet/" data-width="25" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
     </div>
 </body>
 
