@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
 
-    "name": "Dabster Bet",
-    "description": "Your knowledge in sports betting will be more valuable with us. Type 'bet' in search tab, then press tab key to get more help.",
-    "version": "1.1",
+    "name": "NCC Bet",
+    "description": "Your knowledge in sports betting will be more valuable with us.",
+    "version": "1.2",
 
     "browser_action": {
         "default_icon": "icon.png",
