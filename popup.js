@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function checkPage_hdl() {
-    chrome.runtime.sendMessage({ print: true, data: 'mortii ma-tii' });
+    //alert('checkPage_hdl was clicked');
+    chrome.tabs.create({ active: true, url: 'https://www.facebook.com/nccbet' });
 }
 
 //chrome.browserAction.setBadgeText({ text: "nyc" });
